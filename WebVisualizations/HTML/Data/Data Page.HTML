@@ -31,29 +31,123 @@
 <body>
 
 <div class="jumbotron text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p> 
+  <h1>Bootstrap Data Table</h1>
+  <p>I have used Bootstrap to create a table showing Weather Data for cities.</p> 
 </div>
   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
 <div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-  </div>
+  <h2>Cities</h2>
+  <p>Table showing weather data.</p>            
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Cities ID</th>
+        <th>Cities</th>
+        <th>Cloudiness</th>
+        <th>Country</th>
+        <th>Date</th>
+        <th>Humidity</th>
+        <th>Lat</th>
+        <th>Lng</th>
+        <th>Max Temp</th>
+        <th>Wind Speed</th>
+       
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>0</td>
+        <td>jacareacanga</td>
+        <td>0</td>
+        <td>BR</td>
+        <td>1528902000</td>
+        <td>62</td>
+        <td>-6.22</td>
+        <td>-57.76</td>
+        <td>89.6</td>
+        <td>6.93</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>kaitangata</td>
+        <td>100</td>
+        <td>NZ</td>
+        <td>1528905304</td>
+        <td>94</td>
+        <td>-46.28</td>
+        <td>169.85</td>
+        <td>42.61</td>
+        <td>5.64</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>goulburn</td>
+        <td>20</td>
+        <td>AU</td>
+        <td>1528905078</td>
+        <td>91</td>
+        <td>-34.75</td>
+        <td>149.72</td>
+        <td>44.32</td>
+        <td>10.11</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>lata</td>
+        <td>76</td>
+        <td>IN</td>
+        <td>1528905305</td>
+        <td>89</td>
+        <td>30.78</td>
+        <td>78.62</td>
+        <td>59.89</td>
+        <td>0.94</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>chokurdakh</td>
+        <td>0</td>
+        <td>RU</td>
+        <td>1528905306</td>
+        <td>88</td>
+        <td>70.62</td>
+        <td>147.9</td>
+        <td>32.17</td>
+        <td>2.95/td>
+      </tr>  
+      <tr>
+        <td>5</td>
+        <td>martyush</td>
+        <td>92</td>
+        <td>RU</td>
+        <td>1528905306</td>
+        <td>94</td>
+        <td>56.4</td>
+        <td>61.89</td>
+        <td>55.03</td>
+        <td>9.33</td>
+      </tr>  
+
+    </tbody>
+  </table>
 </div>
+
+</body>
+</html>
+
 
 </body>
 </html>
